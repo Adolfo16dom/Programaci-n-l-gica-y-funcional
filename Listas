@@ -4,7 +4,7 @@
 ;; ((cdr caaadr ' (a b c d e)))
 
   Lista: (a b c d e) → Extraer d
-  (cdr (caaadr ' (a b c d e)))
+  (cadddr '(a b c d e))
 
   Lista: ((1 2) (3 4) (5 6)) → Extraer 5
 
